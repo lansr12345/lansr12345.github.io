@@ -343,7 +343,6 @@
             z-index: 10;
             padding: 0 20px;
             touch-action: pan-y;
-            /* السماح بالسحب الأفقي يدويًا */
         }
         
         .thumbnail-item {
@@ -737,121 +736,155 @@
                 once: true
             });
 
-            const allItems = [{
-                title: "كونغ فو باندا 4",
-                image: "img/dany5/dany04.jpg",
-                link: "show6/show1.html",
-                rating: 8.7,
-                genre: "كوميدي، مغامرة"
-            }, {
-                title: "حكاية لعبة",
-                image: "img/dany5/dany016.jpg",
-                link: "show6/show2.html",
-                rating: 8.8,
-                genre: "مغامرة، كوميدي، عائلي"
-            }, {
-                title: "النملة والجراد",
-                image: "img/dany5/dany013.jpg",
-                link: "show6/show3.html",
-                rating: 7.9,
-                genre: "مغامرة، كوميدي"
-            }, {
-                title: "عائلة روبنسون",
-                image: "img/dany5/dany017.jpg",
-                link: "show6/show4.html",
-                rating: 8.1,
-                genre: "مغامرة، خيال علمي"
-            }, {
-                title: "مزرعة في خطر",
-                image: "img/dany5/dany018.jpg",
-                link: "show6/show5.html",
-                rating: 7.5,
-                genre: "كوميدي، مغامرة"
-            }, {
-                title: "ليلة في المتحف",
-                image: "img/dany5/dany019.jpg",
-                link: "show6/show6.html",
-                rating: 8.3,
-                genre: "كوميدي، مغامرة، عائلي"
-            }, {
-                title: "مريدا",
-                image: "img/dany5/dany011.jpg",
-                link: "show6/show7.html",
-                rating: 8.4,
-                genre: "مغامرة، دراما"
-            }, {
-                title: "بيت التنانين",
-                image: "img/dany5/dany01.jpg",
-                link: "show6/show8.html",
-                rating: 8.9,
-                genre: "فانتازيا، دراما"
-            }, {
-                title: "عصر الجليد",
-                image: "img/dany5/dany08.jpg",
-                link: "show6/show9.html",
-                rating: 8.5,
-                genre: "مغامرة، كوميدي"
-            }, {
-                title: "ملكة الثلج",
-                image: "img/dany5/dany02.jpg",
-                link: "show6/show10.html",
-                rating: 8.4,
-                genre: "مغامرة، فانتازيا"
-            }, {
-                title: "الامبراطور 2000",
-                image: "img/dany5/dany021.jpg",
-                link: "show6/show011.html",
-                rating: 7.8,
-                genre: "كوميدي، مغامرة"
-            }, {
-                title: "الامبراطور 2004",
-                image: "img/dany5/dany020.jpg",
-                link: "show6/show012.html",
-                rating: 7.7,
-                genre: "كوميدي، مغامرة"
-            }, {
-                title: "فوق Up",
-                image: "img/dany5/dany023.jpg",
-                link: "show6/show013.html",
-                rating: 8.9,
-                genre: "مغامرة، دراما"
-            }, {
-                title: "بن تن",
-                image: "img/dany5/dany024.jpg",
-                link: "show6/show014.html",
-                rating: 8.2,
-                genre: "أكشن، خيال علمي"
-            }, {
-                title: "قلباً وقالباً",
-                image: "img/dany5/dany022.jpg",
-                link: "show6/show015.html",
-                rating: 8.0,
-                genre: "دراما، كوميدي"
-            }, {
-                title: "الأسد الملك",
-                image: "img/dany5/dany025.jpg",
-                link: "show6/show016.html",
-                rating: 8.8,
-                genre: "دراما، مغامرة"
-            }, {
-                title: "الشقيقان",
-                image: "img/dany5/dany034.jpg",
-                link: "show6/show017.html",
-                rating: 9.0,
-                genre: "مغامرة، أكشن"
-            }, {
-                title: "الفارالطباخ",
-                image: "img/dany5/dany035.jpg",
-                link: "show6/show014.html",
-                rating: 8.8,
-                genre: "دراما، مغامرة"
-            }, {
-                title: "روح",
-                image: "img/dany5/dany027.jpg",
-                link: "show6/show018.html",
-                rating: 8.3,
-                genre: "دراما، موسيقي"
-            }];
+            const allItems = [
+                // الأفلام (type: 'movie')
+                {
+                    title: "كونغ فو باندا 4",
+                    image: "img/dany5/dany04.jpg",
+                    link: "show6/show1.html",
+                    rating: 8.7,
+                    genre: "كوميدي، مغامرة",
+                    type: 'movie'
+                }, {
+                    title: "حكاية لعبة",
+                    image: "img/dany5/dany016.jpg",
+                    link: "show6/show2.html",
+                    rating: 8.8,
+                    genre: "مغامرة، كوميدي، عائلي",
+                    type: 'movie'
+                }, {
+                    title: "النملة والجراد",
+                    image: "img/dany5/dany013.jpg",
+                    link: "show6/show3.html",
+                    rating: 7.9,
+                    genre: "مغامرة، كوميدي",
+                    type: 'movie'
+                }, {
+                    title: "عائلة روبنسون",
+                    image: "img/dany5/dany017.jpg",
+                    link: "show6/show4.html",
+                    rating: 8.1,
+                    genre: "مغامرة، خيال علمي",
+                    type: 'movie'
+                }, {
+                    title: "مزرعة في خطر",
+                    image: "img/dany5/dany018.jpg",
+                    link: "show6/show5.html",
+                    rating: 7.5,
+                    genre: "كوميدي، مغامرة",
+                    type: 'movie'
+                }, {
+                    title: "ليلة في المتحف",
+                    image: "img/dany5/dany019.jpg",
+                    link: "show6/show6.html",
+                    rating: 8.3,
+                    genre: "كوميدي، مغامرة، عائلي",
+                    type: 'movie'
+                }, {
+                    title: "مريدا",
+                    image: "img/dany5/dany011.jpg",
+                    link: "show6/show7.html",
+                    rating: 8.4,
+                    genre: "مغامرة، دراما",
+                    type: 'movie'
+                }, {
+                    title: "عصر الجليد",
+                    image: "img/dany5/dany08.jpg",
+                    link: "show6/show9.html",
+                    rating: 8.5,
+                    genre: "مغامرة، كوميدي",
+                    type: 'movie'
+                }, {
+                    title: "ملكة الثلج",
+                    image: "img/dany5/dany02.jpg",
+                    link: "show6/show10.html",
+                    rating: 8.4,
+                    genre: "مغامرة، فانتازيا",
+                    type: 'movie'
+                }, {
+                    title: "الامبراطور 2000",
+                    image: "img/dany5/dany021.jpg",
+                    link: "show6/show011.html",
+                    rating: 7.8,
+                    genre: "كوميدي، مغامرة",
+                    type: 'movie'
+                }, {
+                    title: "الامبراطور 2004",
+                    image: "img/dany5/dany020.jpg",
+                    link: "show6/show012.html",
+                    rating: 7.7,
+                    genre: "كوميدي، مغامرة",
+                    type: 'movie'
+                }, {
+                    title: "فوق Up",
+                    image: "img/dany5/dany023.jpg",
+                    link: "show6/show013.html",
+                    rating: 8.9,
+                    genre: "مغامرة، دراما",
+                    type: 'movie'
+                }, {
+                    title: "قلباً وقالباً",
+                    image: "img/dany5/dany022.jpg",
+                    link: "show6/show015.html",
+                    rating: 8.0,
+                    genre: "دراما، كوميدي",
+                    type: 'movie'
+                }, {
+                    title: "الأسد الملك",
+                    image: "img/dany5/dany025.jpg",
+                    link: "show6/show016.html",
+                    rating: 8.8,
+                    genre: "دراما، مغامرة",
+                    type: 'movie'
+                }, {
+                    title: "الشقيقان",
+                    image: "img/dany5/dany034.jpg",
+                    link: "show6/show017.html",
+                    rating: 9.0,
+                    genre: "مغامرة، أكشن",
+                    type: 'movie'
+                }, {
+                    title: "الفار الطباخ",
+                    image: "img/dany5/dany035.jpg",
+                    link: "show6/show014.html",
+                    rating: 8.8,
+                    genre: "دراما، مغامرة",
+                    type: 'movie'
+                }, {
+                    title: "بيت التنانين",
+                    image: "img/dany5/dany01.jpg",
+                    link: "show6/show8.html",
+                    rating: 8.8,
+                    genre: "",
+                    type: 'movie'
+                }, {
+                    title: "روح",
+                    image: "img/dany5/dany027.jpg",
+                    link: "show6/show018.html",
+                    rating: 8.3,
+                    genre: "فانتازيا، دراما",
+                    type: 'movie'
+                },
+
+                // ========== المسلسلات (type: 'series') ==========
+                {
+                    title: "بن تن",
+                    image: "img/dany5/dany024.jpg",
+                    link: "series/ben10.html",
+                    rating: 8.2,
+                    genre: "أكشن، خيال علمي",
+                    type: 'series',
+                    seriesId: 'ben10'
+                }, {
+                    title: "دانى الشبح",
+                    image: "img/dany5/dany028.jpg",
+                    link: "series/httyd.html",
+                    rating: 8.9,
+                    genre: "فانتازيا، دراما",
+                    type: 'series',
+                    seriesId: 'httyd'
+                }
+            ];
 
             const ITEMS_PER_PAGE = 18;
             let currentPage = 1,
@@ -860,7 +893,7 @@
 
             function openLink(url) {
                 playClick();
-                if (url && url !== "#") window.open(url, '_blank');
+                if (url && url !== "#") window.location.href = url;
                 else alert('الرابط غير متوفر');
             }
 
@@ -962,8 +995,8 @@
             }
 
             function filterItems(type) {
-                if (type === 'movies') filteredItems = allItems.filter(i => !i.title.includes('مسلسل'));
-                else if (type === 'series') filteredItems = allItems.filter(i => i.title.includes('مسلسل'));
+                if (type === 'movies') filteredItems = allItems.filter(i => i.type === 'movie');
+                else if (type === 'series') filteredItems = allItems.filter(i => i.type === 'series');
                 else filteredItems = [...allItems];
                 currentPage = 1;
                 updateDisplay();
@@ -1065,7 +1098,6 @@
                 clearInterval(autoRotateInterval);
             }
 
-            // دعم السحب اليدوي على الكاروسيل
             let touchStartX = 0,
                 touchStartY = 0,
                 isSwipingCarousel = false;
@@ -1083,7 +1115,7 @@
                 const diffX = e.touches[0].clientX - touchStartX;
                 const diffY = e.touches[0].clientY - touchStartY;
                 if (Math.abs(diffX) > Math.abs(diffY)) {
-                    e.preventDefault(); // منع التمرير العمودي
+                    e.preventDefault();
                 }
             }, {
                 passive: false
@@ -1100,19 +1132,17 @@
                     return;
                 }
                 playClick();
-                if (diffX > 0) { // سحب لليمين (RTL: السابق)
+                if (diffX > 0) {
                     prevCarouselStep();
-                } else { // سحب لليسار (التالي)
+                } else {
                     nextCarouselStep();
                 }
                 startAutoRotate();
             });
 
-            // إعداد الأيقونات الأولية
             updateThumbnails(0);
             startAutoRotate();
 
-            // النقر على الأيقونات
             [thumb1, thumb2, thumb3].forEach((t, idx) => {
                 t.addEventListener('click', (e) => {
                     playClick();
