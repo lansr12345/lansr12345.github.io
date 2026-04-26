@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes, viewport-fit=cover">
+    <title>بن تن - قائمة الحلقات · HaM كرتون</title>
+    <meta name="description" content="مشاهدة جميع حلقات مسلسل بن تن Ben 10 مدبلجة بجودة عالية. المسلسل الكرتوني الشهير عن الفتى بن تينيسون الذي يجد ساعة فضائية تمنحه قوى خارقة. شاهد كل الحلقات بالترتيب.">
+    <meta name="keywords" content="بن تن, مسلسل بن تن, حلقات بن تن, بن تن كامل, Ben 10, مسلسلات كرتون, كرتون أكشن, كرتون خيال علمي, بن تن مدبلج">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="مسلسل بن تن - جميع الحلقات">
+    <meta property="og:description" content="شاهد مسلسل بن تن كامل مدبلج بجودة HD">
+    <meta property="og:image" content="../img/dany5/dany024.jpg">
+    <meta property="og:type" content="website">
+    
+    <link rel="canonical" href="https://lansr12345.github.io/HaM/series/ben10.html">
+    <link rel="manifest" href="../manifest.json">
+    <meta name="theme-color" content="#2a3f6e">
+    
+    <link rel="icon" type="image/x-icon" href="../icons/favicon.ico">
+    <link rel="icon" type="image/png" sizes="192x192" href="../icons/icon-192x192.png">
+    <link rel="apple-touch-icon" sizes="192x192" href="../icons/icon-192x192.png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;900&display=swap" rel="stylesheet">
+    <style>
+        /* ========== HaM كرتون - تصميم أسطوري (مطابق لصفحات showX.html) ========== */
+        :root { --accent: #00bcd4; }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Cairo', sans-serif; background: #0a0a0a; color: #ddd; min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 20px; transition: background 0.3s; background-image: repeating-linear-gradient(45deg, #111 0px, #111 2px, transparent 2px, transparent 8px), radial-gradient(circle at 30% 40%, #1a1a1a 0%, transparent 50%); }
+        body.light-mode { background: #e8e8e8; color: #1a1a1a; background-image: repeating-linear-gradient(45deg, #ccc 0px, #ccc 2px, transparent 2px, transparent 8px), radial-gradient(circle at 30% 40%, #f0f0f0 0%, transparent 50%); }
+        .legendary-stage { max-width: 1200px; width: 100%; margin: 0 auto; position: relative; }
+        .legendary-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; padding: 0 5px; border-bottom: 2px solid #3a3a3a; padding-bottom: 15px; }
+        .theater-title { font-size: 26px; font-weight: 900; letter-spacing: 8px; text-transform: uppercase; text-shadow: 4px 4px 0 #00000080; animation: flicker 3s infinite alternate; }
+        .theater-title .white-part { color: #ffffff; } .theater-title .gold-part { color: var(--accent); }
+        body.light-mode .theater-title .white-part { color: #1a1a1a; }
+        @keyframes flicker { 0% { opacity: 0.9; text-shadow: 4px 4px 0 #00000080; } 100% { opacity: 1; text-shadow: 6px 6px 0 #000000b0; } }
+        .legendary-utils { display: flex; gap: 20px; } .util-item { display: flex; flex-direction: column; align-items: center; gap: 5px; }
+        .util-btn-legend { background: none; border: 2px solid #808080; color: #b0b0b0; width: 50px; height: 50px; font-size: 24px; cursor: pointer; transition: 0.15s; display: flex; align-items: center; justify-content: center; box-shadow: 5px 5px 0 #00000060; transform: translate(0, 0); }
+        .util-btn-legend:hover { background: #ffffff10; border-color: #c0c0c0; color: #fff; box-shadow: 8px 8px 0 #00000080; transform: translate(-2px, -2px); }
+        .util-btn-legend:active { box-shadow: 2px 2px 0 #000; transform: translate(3px, 3px); }
+        .util-label { font-size: 12px; font-weight: 700; text-transform: uppercase; color: #b0b0b0; text-shadow: 2px 2px 0 #00000080; letter-spacing: 1px; }
+        body.light-mode .util-label { color: #2a2a2a; text-shadow: 2px 2px 0 #bbbbbb; }
+        
+        /* ترويسة المسلسل */
+        .series-header { display: flex; align-items: center; gap: 30px; margin: 30px 0; flex-wrap: wrap; }
+        .series-poster { width: 220px; border-radius: 20px; border: 5px solid var(--accent); box-shadow: 20px 20px 0 #000000b0; }
+        .series-info h1 { font-size: 52px; font-weight: 900; color: var(--accent); text-shadow: 8px 8px 0 #151515; margin-bottom: 10px; }
+        .series-info p { color: #c0c0c0; font-size: 1.1rem; line-height: 1.6; max-width: 700px; }
+        body.light-mode .series-info p { color: #2a2a2a; }
+        
+        /* شبكة الحلقات */
+        .episodes-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 15px; margin: 40px 0; }
+        .episode-card { background: #1a1a1a; border: 3px solid var(--accent); border-radius: 15px; padding: 20px 10px; text-align: center; font-weight: 900; font-size: 20px; color: #fff; text-decoration: none; transition: all 0.2s; box-shadow: 8px 8px 0 #000000b0; cursor: pointer; display: block; }
+        .episode-card:hover { transform: translate(-4px, -4px); box-shadow: 12px 12px 0 #000; background: var(--accent); color: #000; }
+        body.light-mode .episode-card { background: #e0e0e0; color: #1a1a1a; border-color: var(--accent); }
+        body.light-mode .episode-card:hover { background: var(--accent); color: #000; }
+        
+        .info-strip-legend { display: flex; flex-wrap: wrap; gap: 30px; margin: 20px 0 30px; border-top: 3px solid #3a3a3a; border-bottom: 3px solid #3a3a3a; padding: 18px 0; justify-content: space-around; }
+        .info-item-legend { font-weight: 900; font-size: 20px; color: #b0b0b0; text-transform: uppercase; letter-spacing: 2px; }
+        
+        .footer-legend { margin-top: 50px; text-align: center; color: #808080; border-top: 3px dashed #4a4a4a; padding-top: 30px; font-weight: 700; letter-spacing: 4px; text-transform: uppercase; }
+        .footer-links { display: flex; justify-content: center; align-items: center; gap: 50px; flex-wrap: wrap; margin-bottom: 20px; }
+        .footer-link-item { display: flex; flex-direction: column; align-items: center; gap: 8px; }
+        .footer-icon { background: #1a1a1a; border: 3px solid #555; width: 60px; height: 60px; display: flex; align-items: center; justify-content: center; font-size: 28px; color: #d0d0d0; cursor: pointer; box-shadow: 8px 8px 0 #000000b0; transition: 0.15s; transform: translate(0, 0); text-decoration: none; }
+        .footer-icon:hover { background: var(--accent); border-color: #ebd5a8; color: #0c0c0c; box-shadow: 12px 12px 0 #000000d0; transform: translate(-4px, -4px); }
+        .footer-label { font-size: 14px; font-weight: 900; color: #b0b0b0; text-transform: uppercase; text-shadow: 2px 2px 0 #00000080; letter-spacing: 1px; }
+        body.light-mode .footer-icon { background: #e0e0e0; border-color: #999; color: #1a1a1a; }
+        body.light-mode .footer-icon:hover { background: var(--accent); color: #000; }
+        .copyright { margin-top: 20px; font-size: 14px; }
+        
+        @media (max-width: 700px) { .series-info h1 { font-size: 42px; } .series-poster { width: 160px; } .episodes-grid { grid-template-columns: repeat(3, 1fr); } }
+        @media (max-width: 480px) { .series-header { justify-content: center; text-align: center; } .episodes-grid { grid-template-columns: repeat(2, 1fr); } }
+        a { text-decoration: none; color: inherit; }
+    </style>
+</head>
+<body class="light-mode">
+    <div class="legendary-stage">
+        <div class="legendary-header">
+            <div class="theater-title"><span class="white-part">🎭 HaM</span> <span class="gold-part">كرتون</span></div>
+            <div class="legendary-utils">
+                <div class="util-item"><a href="../index.html" class="util-btn-legend">🏠</a><span class="util-label">الرئيسية</span></div>
+                <div class="util-item"><div class="util-btn-legend" onclick="toggleMode()">◐</div><span class="util-label">الوضع الليلى</span></div>
+            </div>
+        </div>
+
+        <div class="series-header">
+            <img src="../img/dany5/dany024.jpg" alt="بن تن" class="series-poster">
+            <div class="series-info">
+                <h1>بن تن</h1>
+                <p>مسلسل أكشن وخيال علمي يتبع مغامرات بن تينيسون، الفتى الذي يجد ساعة فضائية غامضة تمنحه القدرة على التحول إلى 10 كائنات فضائية مختلفة. انضم إلى بن وجوين وجدهم ماكس في رحلاتهم لإنقاذ العالم من الأشرار.</p>
+                <div class="info-strip-legend" style="margin-top:20px;">
+                    <span class="info-item-legend">📺 30 حلقة</span>
+                    <span class="info-item-legend">👾 أكشن · خيال علمي</span>
+                    <span class="info-item-legend">⭐ 8.2/10</span>
+                    <span class="info-item-legend">📅 2005-2008</span>
+                </div>
+            </div>
+        </div>
+
+        <h2 style="font-size:36px; margin:40px 0 20px; color: var(--accent); text-shadow: 6px 6px 0 #151515;">اختر الحلقة</h2>
+
+        <div class="episodes-grid" id="episodesGrid"></div>
+
+        <div class="footer-legend">
+            <div class="footer-links">
+                <div class="footer-link-item"><a href="../index.html" class="footer-icon">🏠</a><span class="footer-label">الرئيسية</span></div>
+                <div class="footer-link-item"><a href="../index.html#movies" class="footer-icon">🎬</a><span class="footer-label">أفلام</span></div>
+                <div class="footer-link-item"><a href="../index.html#series" class="footer-icon">📺</a><span class="footer-label">مسلسلات</span></div>
+            </div>
+            <div class="copyright">© 2026 HaM كرتون</div>
+        </div>
+    </div>
+
+    <script>
+        const SERIES_ID = 'ben10';
+        const TOTAL_EPISODES = 30;
+
+        function toggleMode() {
+            document.body.classList.toggle('light-mode');
+        }
+
+        // بناء شبكة الحلقات
+        const grid = document.getElementById('episodesGrid');
+        for (let i = 1; i <= TOTAL_EPISODES; i++) {
+            const link = document.createElement('a');
+            link.href = `../episode.html?series=${SERIES_ID}&ep=${i}`;
+            link.className = 'episode-card';
+            link.textContent = `حلقة ${i}`;
+            grid.appendChild(link);
+        }
+    </script>
+</body>
+</html>
