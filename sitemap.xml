@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  
+  <!-- الصفحة الرئيسية -->
+  <url>
+    <loc>https://lansr12345.github.io/HaM/</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- صفحة الأفلام -->
+  <url>
+    <loc>https://lansr12345.github.io/HaM/#movies</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  
+  <!-- صفحة المسلسلات -->
+  <url>
+    <loc>https://lansr12345.github.io/HaM/#series</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- ========== صفحات الأفلام والمسلسلات ========== -->
+  <url>
+    <loc>https://lansr12345.github.io/HaM/show6/show1.html</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://lansr12345.github.io/HaM/img/dany5/dany04.jpg</image:loc>
+      <image:title>كونغ فو باندا 4</image:title>
+      <image:caption>فيلم كونغ فو باندا 4 - مغامرة كوميدية</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://lansr12345.github.io/HaM/show6/show2.html</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://lansr12345.github.io/HaM/img/dany5/dany016.jpg</image:loc>
+      <image:title>حكاية لعبة</image:title>
+      <image:caption>فيلم حكاية لعبة - مغامرة كوميدية عائلية</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://lansr12345.github.io/HaM/show6/show3.html</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://lansr12345.github.io/HaM/img/dany5/dany013.jpg</image:loc>
+      <image:title>النملة والجراد</image:title>
+      <image:caption>فيلم النملة والجراد - مغامرة كوميدية</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://lansr12345.github.io/HaM/show6/show4.html</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://lansr12345.github.io/HaM/img/dany5/dany017.jpg</image:loc>
+      <image:title>عائلة روبنسون</image:title>
+      <image:caption>فيلم عائلة روبنسون - مغامرة خيال علمي</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://lansr12345.github.io/HaM/show6/show5.html</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://lansr12345.github.io/HaM/img/dany5/dany018.jpg</image:loc>
+      <image:title>مزرعة في خطر</image:title>
+      <image:caption>فيلم مزرعة في خطر - كوميدي مغامرة</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://lansr12345.github.io/HaM/show6/show6.html</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://lansr12345.github.io/HaM/img/dany5/dany019.jpg</image:loc>
+      <image:title>ليلة في المتحف</image:title>
+      <image:caption>فيلم ليلة في المتحف - كوميدي مغامرة عائلي</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://lansr12345.github.io/HaM/show6/show7.html</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://lansr12345.github.io/HaM/img/dany5/dany011.jpg</image:loc>
+      <image:title>مريدا</image:title>
+      <image:caption>فيلم مريدا - مغامرة دراما</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://lansr12345.github.io/HaM/show6/show8.html</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://lansr12345.github.io/HaM/img/dany5/dany01.jpg</image:loc>
+      <image:title>بيت التنانين</image:title>
+      <image:caption>مسلسل بيت التنانين - فانتازيا دراما</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://lansr12345.github.io/HaM/show6/show9.html</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://lansr12345.github.io/HaM/img/dany5/dany08.jpg</image:loc>
+      <image:title>عصر الجليد</image:title>
+      <image:caption>فيلم عصر الجليد - مغامرة كوميدية</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://lansr12345.github.io/HaM/show6/show10.html</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://lansr12345.github.io/HaM/img/dany5/dany02.jpg</image:loc>
+      <image:title>ملكة الثلج</image:title>
+      <image:caption>فيلم ملكة الثلج - مغامرة فانتازيا</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://lansr12345.github.io/HaM/show6/show011.html</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://lansr12345.github.io/HaM/img/dany5/dany021.jpg</image:loc>
+      <image:title>الامبراطور 2000</image:title>
+      <image:caption>فيلم الامبراطور 2000 - كوميدي مغامرة</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://lansr12345.github.io/HaM/show6/show012.html</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://lansr12345.github.io/HaM/img/dany5/dany020.jpg</image:loc>
+      <image:title>الامبراطور 2004</image:title>
+      <image:caption>فيلم الامبراطور 2004 - كوميدي مغامرة</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://lansr12345.github.io/HaM/show6/show013.html</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://lansr12345.github.io/HaM/img/dany5/dany023.jpg</image:loc>
+      <image:title>فوق Up</image:title>
+      <image:caption>فيلم فوق Up - مغامرة دراما</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://lansr12345.github.io/HaM/show6/show014.html</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://lansr12345.github.io/HaM/img/dany5/dany024.jpg</image:loc>
+      <image:title>بن تن</image:title>
+      <image:caption>مسلسل بن تن - أكشن خيال علمي</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://lansr12345.github.io/HaM/show6/show015.html</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://lansr12345.github.io/HaM/img/dany5/dany022.jpg</image:loc>
+      <image:title>قلباً وقالباً</image:title>
+      <image:caption>فيلم قلباً وقالباً - دراما كوميدي</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://lansr12345.github.io/HaM/show6/show016.html</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://lansr12345.github.io/HaM/img/dany5/dany025.jpg</image:loc>
+      <image:title>الأسد الملك</image:title>
+      <image:caption>فيلم الأسد الملك - دراما مغامرة</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://lansr12345.github.io/HaM/show6/show017.html</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://lansr12345.github.io/HaM/img/dany5/dany034.jpg</image:loc>
+      <image:title>الشقيقان</image:title>
+      <image:caption>فيلم الشقيقان - مغامرة أكشن</image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://lansr12345.github.io/HaM/show6/show018.html</loc>
+    <lastmod>2026-04-21</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://lansr12345.github.io/HaM/img/dany5/dany027.jpg</image:loc>
+      <image:title>روح</image:title>
+      <image:caption>فيلم روح - دراما موسيقي</image:caption>
+    </image:image>
+  </url>
+
+</urlset>

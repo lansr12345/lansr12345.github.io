@@ -1,0 +1,90 @@
+{
+    "name": "HaM كرتون - أفلام ومسلسلات كرتونية",
+    "short_name": "HaM كرتون",
+    "description": "شاهد أفضل أفلام ومسلسلات الكرتون والأنميشن مدبلجة ومترجمة بجودة HD بدون إعلانات.",
+    "start_url": "/HaM/",
+    "scope": "/HaM/",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "background_color": "#0f172a",
+    "theme_color": "#2a3f6e",
+    "dir": "rtl",
+    "lang": "ar",
+    "categories": ["entertainment", "video", "kids"],
+    "icons": [{
+            "src": "icons/icon-32x32.png",
+            "sizes": "32x32",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "icons/icon-72x72.png",
+            "sizes": "72x72",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "icons/icon-96x96.png",
+            "sizes": "96x96",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "icons/icon-144x144.png",
+            "sizes": "144x144",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "icons/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "icons/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any"
+        },
+        {
+            "src": "icons/maskable-icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ],
+    "screenshots": [{
+            "src": "screenshots/desktop-preview.jpg",
+            "sizes": "1280x720",
+            "type": "image/jpeg",
+            "form_factor": "wide",
+            "label": "الشاشة الرئيسية لـ HaM كرتون"
+        },
+        {
+            "src": "screenshots/mobile-preview.jpg",
+            "sizes": "750x1334",
+            "type": "image/jpeg",
+            "form_factor": "narrow",
+            "label": "تصفح الأفلام على الجوال"
+        }
+    ],
+    "shortcuts": [{
+            "name": "الأفلام",
+            "short_name": "أفلام",
+            "description": "مشاهدة أحدث الأفلام",
+            "url": "/HaM/#watch",
+            "icons": [{ "src": "icons/shortcut-movies.png", "sizes": "96x96" }]
+        },
+        {
+            "name": "المسلسلات",
+            "short_name": "مسلسلات",
+            "description": "مشاهدة المسلسلات الكرتونية",
+            "url": "/HaM/#watch",
+            "icons": [{ "src": "icons/shortcut-series.png", "sizes": "96x96" }]
+        }
+    ],
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "iarc_rating_id": "e44fc21b-7c3b-4f4e-93ec-0c5b1d5a9e2c"
+}

@@ -1,0 +1,8 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "io.github.lansr12345.hamcartoon",
+    "sha256_cert_fingerprints": ["F5:73:22:E1:22:33:88:3A:F3:F8:C7:90:05:AB:19:9E:5F:55:A5:06:F8:BC:18:CD:C7:EF:31:DB:FD:A2:1C:1F"]
+  }
+}]
