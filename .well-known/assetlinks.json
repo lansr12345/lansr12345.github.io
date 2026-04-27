@@ -1,1 +1,10 @@
-
+[{
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+        "namespace": "android_app",
+        "package_name": "com.lansr12345.hamcartoon",
+        "sha256_cert_fingerprints": [
+            "DA265736CE4A98D265B0AD3A90C35DC24D8CA7170FD45B306E59B6FA3BE84B72"
+        ]
+    }
+}]
